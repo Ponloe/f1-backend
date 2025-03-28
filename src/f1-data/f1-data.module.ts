@@ -11,5 +11,6 @@ import { F1DataService } from './f1-data.service';
   ],
   controllers: [F1DataController],
   providers: [F1DataService],
+  exports: [F1DataService],
 })
 export class F1DataModule {}

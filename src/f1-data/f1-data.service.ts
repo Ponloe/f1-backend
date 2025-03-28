@@ -69,10 +69,4 @@ export class F1DataService {
     return value.includes('>=') || value.includes('<=') || 
            value.includes('>') || value.includes('<');
   }
-
-  // Add more methods to fetch other data as needed (e.g., pit stops, driver standings, etc.)
-  // For example:
-  // async getPitStops(params: PitStopParams): Promise<any> {
-  //   return this.fetchFromOpenF1('pit_stops', params);
-  // }
 }
